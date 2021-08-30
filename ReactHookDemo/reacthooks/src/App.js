@@ -13,6 +13,7 @@ import DataFetching from "./components/DataFetching";
 import CounterOne from "./components/CounterOne";
 import CounterTwo from "./components/CounterTwo";
 import ComponentA from "./components/ComponentA";
+import Home from "./containers/Home";
 
 export const CountContext = React.createContext();
 const initialState = 0;
@@ -66,6 +67,7 @@ function App() {
         {/* <CounterOne /> */}
         {/* <CounterTwo /> */}
         <ComponentA />
+        <Home/>
       </div>
     </CountContext.Provider>
   );

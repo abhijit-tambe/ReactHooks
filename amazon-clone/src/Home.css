@@ -1,0 +1,30 @@
+.home__image{
+    /* margin:auto; */
+    /* padding: 10px; */
+    /* box-sizing: border-box; */
+    /* background-size: cover; */
+    position: relative;
+    width: 100%;
+    /* padding:0px 10px; */
+    /* height: 100%; */
+    z-index: -1;
+    margin-bottom: -20%;
+    mask-image: linear-gradient(to bottom,#000000FF,#000000FF,#00000099,#ffffff00 );
+}
+.home{
+    /* display: flex;
+    flex-direction: column; */
+    margin:0px auto;
+    max-width: 1500px;
+    /* background-color: rgb(237,237, 237); */
+}
+
+.home__products{
+    z-index: 1;
+    display: flex;
+    margin:0px 5px;
+}
+
+.header__basketCount{
+    color: orange;
+}
